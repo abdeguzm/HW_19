@@ -1,0 +1,110 @@
+/* Fonts */
+.h1, h2, h3, h5, li, .blockquote-footer, .card-title, .table_color, .text-muted, .text{
+    font-family: 'Nunito', sans-serif;
+}
+
+.p, .media-body, .card-text, td{
+    font-family: 'Noticia Text', serif;
+}
+
+.navbar-brand, .mt-0{
+    font-family: 'Nunito', sans-serif;
+}
+
+/* Colors */
+.bg_color{
+    background-color: #FFFAF0;
+}
+
+.card_color{
+    background-color: #8D7152; 
+}
+
+.button_color{
+    background-color: #A9D9EC;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+}
+
+.table_color{
+    background-color: #A9D9EC;
+}
+
+/* Cards */
+#scroll{
+    
+}
+
+.center{
+    text-align: center;
+}
+
+.contain{
+    object-fit: contain;
+}
+
+.card-img-top{
+    height: 220px;
+}
+
+/* Card Image Fade Effect */
+.container {
+  position: relative;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #A9D9EC;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Footer */
+.container2{
+    background-color: #A9D9EC;
+    width: 100vw;
+}
+
+.text-muted{
+    padding-left: 15px;
+}
+
+.height{
+    height: 100vh;
+}
+
+.media{
+    padding: 15vh 0;
+}
+
+.table{
+    margin-bottom: 100px;
+}
